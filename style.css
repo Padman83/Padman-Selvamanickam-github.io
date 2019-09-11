@@ -1,0 +1,67 @@
+html {
+    background:linear-gradient(115.8221404393721deg, rgba(248, 198, 215,1) 5.736111111111111%,rgba(175, 233, 249,1) 96.29166666666666%); 
+    color: rgb(128, 128, 128);
+}
+
+
+/* Custom CSS */
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.introduction {
+    font-family:'Pacifico', cursive;
+    font-size: 3.10em;
+    font-weight: 600;
+}
+
+.profession {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(128, 128, 128);
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-weight: 100;
+}
+
+
+.social-icons i {
+    color: rgb(128, 128, 128);
+    padding: 10px;
+}
+
+
+
+
+/* Media Queries */
+@media (min-width: 576px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+.social-icons i {
+    font-size: 3em;
+}
